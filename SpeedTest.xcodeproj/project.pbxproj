@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11A23A7217E0636009FEB2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A11A23A6217E0636009FEB2A /* AppDelegate.m */; };
+		A11A23AD217E0636009FEB2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11A23AB217E0636009FEB2A /* Main.storyboard */; };
+		A11A23AF217E0638009FEB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11A23AE217E0638009FEB2A /* Assets.xcassets */; };
+		A11A23B2217E0638009FEB2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11A23B0217E0638009FEB2A /* LaunchScreen.storyboard */; };
+		A11A23B5217E0638009FEB2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A11A23B4217E0638009FEB2A /* main.m */; };
+		A11A23BF217E0638009FEB2A /* SpeedTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11A23BE217E0638009FEB2A /* SpeedTestTests.m */; };
+		A11A23CA217E0638009FEB2A /* SpeedTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11A23C9217E0638009FEB2A /* SpeedTestUITests.m */; };
+		A154A9AC217F40A0000AA455 /* TestSpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A154A9AB217F40A0000AA455 /* TestSpeedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A11A23BB217E0638009FEB2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A11A239A217E0636009FEB2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A11A23A1217E0636009FEB2A;
+			remoteInfo = SpeedTest;
+		};
+		A11A23C6217E0638009FEB2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A11A239A217E0636009FEB2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A11A23A1217E0636009FEB2A;
+			remoteInfo = SpeedTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A11A23A2217E0636009FEB2A /* SpeedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11A23A5217E0636009FEB2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A11A23A6217E0636009FEB2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A11A23AC217E0636009FEB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A11A23AE217E0638009FEB2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A11A23B1217E0638009FEB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A11A23B3217E0638009FEB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11A23B4217E0638009FEB2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A11A23BA217E0638009FEB2A /* SpeedTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11A23BE217E0638009FEB2A /* SpeedTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedTestTests.m; sourceTree = "<group>"; };
+		A11A23C0217E0638009FEB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11A23C5217E0638009FEB2A /* SpeedTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11A23C9217E0638009FEB2A /* SpeedTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedTestUITests.m; sourceTree = "<group>"; };
+		A11A23CB217E0638009FEB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A154A9A7217F3BD0000AA455 /* SpeedTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeedTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		A154A9AA217F40A0000AA455 /* TestSpeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSpeedViewController.h; sourceTree = "<group>"; };
+		A154A9AB217F40A0000AA455 /* TestSpeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSpeedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A11A239F217E0636009FEB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A23B7217E0638009FEB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A23C2217E0638009FEB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A11A2399217E0636009FEB2A = {
+			isa = PBXGroup;
+			children = (
+				A11A23A4217E0636009FEB2A /* SpeedTest */,
+				A11A23BD217E0638009FEB2A /* SpeedTestTests */,
+				A11A23C8217E0638009FEB2A /* SpeedTestUITests */,
+				A11A23A3217E0636009FEB2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A11A23A3217E0636009FEB2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A11A23A2217E0636009FEB2A /* SpeedTest.app */,
+				A11A23BA217E0638009FEB2A /* SpeedTestTests.xctest */,
+				A11A23C5217E0638009FEB2A /* SpeedTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A11A23A4217E0636009FEB2A /* SpeedTest */ = {
+			isa = PBXGroup;
+			children = (
+				A11A23A5217E0636009FEB2A /* AppDelegate.h */,
+				A11A23A6217E0636009FEB2A /* AppDelegate.m */,
+				A154A9AA217F40A0000AA455 /* TestSpeedViewController.h */,
+				A154A9AB217F40A0000AA455 /* TestSpeedViewController.m */,
+				A11A23AB217E0636009FEB2A /* Main.storyboard */,
+				A11A23AE217E0638009FEB2A /* Assets.xcassets */,
+				A11A23B0217E0638009FEB2A /* LaunchScreen.storyboard */,
+				A11A23B3217E0638009FEB2A /* Info.plist */,
+				A11A23B4217E0638009FEB2A /* main.m */,
+				A154A9A7217F3BD0000AA455 /* SpeedTest-Bridging-Header.h */,
+			);
+			path = SpeedTest;
+			sourceTree = "<group>";
+		};
+		A11A23BD217E0638009FEB2A /* SpeedTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A11A23BE217E0638009FEB2A /* SpeedTestTests.m */,
+				A11A23C0217E0638009FEB2A /* Info.plist */,
+			);
+			path = SpeedTestTests;
+			sourceTree = "<group>";
+		};
+		A11A23C8217E0638009FEB2A /* SpeedTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A11A23C9217E0638009FEB2A /* SpeedTestUITests.m */,
+				A11A23CB217E0638009FEB2A /* Info.plist */,
+			);
+			path = SpeedTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A11A23A1217E0636009FEB2A /* SpeedTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11A23CE217E0638009FEB2A /* Build configuration list for PBXNativeTarget "SpeedTest" */;
+			buildPhases = (
+				A11A239E217E0636009FEB2A /* Sources */,
+				A11A239F217E0636009FEB2A /* Frameworks */,
+				A11A23A0217E0636009FEB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedTest;
+			productName = SpeedTest;
+			productReference = A11A23A2217E0636009FEB2A /* SpeedTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A11A23B9217E0638009FEB2A /* SpeedTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11A23D1217E0638009FEB2A /* Build configuration list for PBXNativeTarget "SpeedTestTests" */;
+			buildPhases = (
+				A11A23B6217E0638009FEB2A /* Sources */,
+				A11A23B7217E0638009FEB2A /* Frameworks */,
+				A11A23B8217E0638009FEB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11A23BC217E0638009FEB2A /* PBXTargetDependency */,
+			);
+			name = SpeedTestTests;
+			productName = SpeedTestTests;
+			productReference = A11A23BA217E0638009FEB2A /* SpeedTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A11A23C4217E0638009FEB2A /* SpeedTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11A23D4217E0638009FEB2A /* Build configuration list for PBXNativeTarget "SpeedTestUITests" */;
+			buildPhases = (
+				A11A23C1217E0638009FEB2A /* Sources */,
+				A11A23C2217E0638009FEB2A /* Frameworks */,
+				A11A23C3217E0638009FEB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11A23C7217E0638009FEB2A /* PBXTargetDependency */,
+			);
+			name = SpeedTestUITests;
+			productName = SpeedTestUITests;
+			productReference = A11A23C5217E0638009FEB2A /* SpeedTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A11A239A217E0636009FEB2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Hafiz Saad";
+				TargetAttributes = {
+					A11A23A1217E0636009FEB2A = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					A11A23B9217E0638009FEB2A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A11A23A1217E0636009FEB2A;
+					};
+					A11A23C4217E0638009FEB2A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A11A23A1217E0636009FEB2A;
+					};
+				};
+			};
+			buildConfigurationList = A11A239D217E0636009FEB2A /* Build configuration list for PBXProject "SpeedTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A11A2399217E0636009FEB2A;
+			productRefGroup = A11A23A3217E0636009FEB2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A11A23A1217E0636009FEB2A /* SpeedTest */,
+				A11A23B9217E0638009FEB2A /* SpeedTestTests */,
+				A11A23C4217E0638009FEB2A /* SpeedTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A11A23A0217E0636009FEB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11A23B2217E0638009FEB2A /* LaunchScreen.storyboard in Resources */,
+				A11A23AF217E0638009FEB2A /* Assets.xcassets in Resources */,
+				A11A23AD217E0636009FEB2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A23B8217E0638009FEB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A23C3217E0638009FEB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A11A239E217E0636009FEB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A154A9AC217F40A0000AA455 /* TestSpeedViewController.m in Sources */,
+				A11A23B5217E0638009FEB2A /* main.m in Sources */,
+				A11A23A7217E0636009FEB2A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A23B6217E0638009FEB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11A23BF217E0638009FEB2A /* SpeedTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11A23C1217E0638009FEB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11A23CA217E0638009FEB2A /* SpeedTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A11A23BC217E0638009FEB2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A11A23A1217E0636009FEB2A /* SpeedTest */;
+			targetProxy = A11A23BB217E0638009FEB2A /* PBXContainerItemProxy */;
+		};
+		A11A23C7217E0638009FEB2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A11A23A1217E0636009FEB2A /* SpeedTest */;
+			targetProxy = A11A23C6217E0638009FEB2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A11A23AB217E0636009FEB2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11A23AC217E0636009FEB2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A11A23B0217E0638009FEB2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11A23B1217E0638009FEB2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A11A23CC217E0638009FEB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A11A23CD217E0638009FEB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A11A23CF217E0638009FEB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SpeedTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.development.SpeedTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpeedTest/SpeedTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A11A23D0217E0638009FEB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SpeedTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.development.SpeedTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpeedTest/SpeedTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A11A23D2217E0638009FEB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeedTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkhome.SignalStrength.SpeedTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTest.app/SpeedTest";
+			};
+			name = Debug;
+		};
+		A11A23D3217E0638009FEB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeedTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkhome.SignalStrength.SpeedTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTest.app/SpeedTest";
+			};
+			name = Release;
+		};
+		A11A23D5217E0638009FEB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeedTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkhome.SignalStrength.SpeedTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedTest;
+			};
+			name = Debug;
+		};
+		A11A23D6217E0638009FEB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeedTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkhome.SignalStrength.SpeedTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A11A239D217E0636009FEB2A /* Build configuration list for PBXProject "SpeedTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11A23CC217E0638009FEB2A /* Debug */,
+				A11A23CD217E0638009FEB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11A23CE217E0638009FEB2A /* Build configuration list for PBXNativeTarget "SpeedTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11A23CF217E0638009FEB2A /* Debug */,
+				A11A23D0217E0638009FEB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11A23D1217E0638009FEB2A /* Build configuration list for PBXNativeTarget "SpeedTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11A23D2217E0638009FEB2A /* Debug */,
+				A11A23D3217E0638009FEB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11A23D4217E0638009FEB2A /* Build configuration list for PBXNativeTarget "SpeedTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11A23D5217E0638009FEB2A /* Debug */,
+				A11A23D6217E0638009FEB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A11A239A217E0636009FEB2A /* Project object */;
+}
